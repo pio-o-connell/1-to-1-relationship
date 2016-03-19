@@ -18,18 +18,17 @@ public class tester {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-                person A = new person("pio",44,"mallow");
-		dog B = new dog("sammy",12);
-		
-		B.setOwner(A);
-		
-		A.setDog(B);
-		
-		System.out.println(A);
-		System.out.println(B);
 
+        person A = new person("pio", 44, "mallow");
+        dog B = new dog("sammy", 12);
+
+        B.setOwner(A);
+
+        A.setDog(B);
+
+        System.out.println(A);
+        System.out.println(B);
 
     }
-    
+
 }
